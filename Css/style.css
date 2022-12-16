@@ -1,0 +1,170 @@
+.nav-cus {
+    background:black;
+    font-size: 10px;
+    font-family: sarif;
+}
+
+.heading{
+    color: white;
+    font-size: 150px;
+}
+
+  .small {
+    color: white;
+    font-size: 16px;
+}
+
+.header-img{
+    position: relative;
+    right: 145px;
+    top: 60px;
+}
+
+.run {
+    color: white;
+    background-color: rgb(135, 89, 3);
+    position:absolute;
+    top: 30px;
+    left: 125px;
+    padding:5px 10px;
+    border-radius: 20px;
+}
+.fa-running   {
+    transform: rotate(20deg);
+    background-color: rgba(248, 248, 248, 0.155);
+    padding: 2px;
+    font-size: 22px;
+    border-radius: 20px;
+    margin-left: 15px;
+    color: white;
+}
+.fa-play-circle {
+    background: rgb(247, 247, 247);
+    padding: 2px;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-left: 15px;
+    color: rgb(253, 72, 0);
+}
+.video {
+    color: white;
+    display: flex;
+    background-color: rgb(15, 13, 35);
+    position: absolute;
+    bottom: 250px;
+    left: -200px;
+    border-radius: 20px;
+    padding: 0;
+    height: 80px;
+}
+.video h2, .workout-iocon h3 {
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.video-text {
+    padding: 10px;
+    text-align: center;
+}
+
+.play-icon {
+   margin: auto 10px auto 0;
+}
+
+.workout-iocon{
+    background: rgb(138, 0, 224);
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    right: 40px;
+    padding: 10px 20px;
+    height:80px ;
+    width: 150px;
+    border-radius: 20px;
+}
+/*features*/
+.features {
+    width: auto;
+    background-color: black;
+    margin-left: -50px;
+}
+
+.features2{
+    background-color: black;
+    color: white;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+
+.outfit{
+    
+    justify-content: space-between;
+}
+
+.features2 .col-3 {
+    max-width: 22% !important;
+    border-radius: 20px;
+    padding: 40px 35px;
+}
+
+.features2 a {
+    color: white;
+    text-decoration: none;
+    background-color: none;
+}
+.features2 a:hover {
+    color: rgb(217, 250, 0);
+}
+/*mid*/
+.midth-part{
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+}
+
+.mid-text-area {
+    margin: auto 0;
+}
+.mid-text-area2 {
+    padding-left: 50px;
+    margin: auto 0;
+}
+
+.btn-type {
+    background: none;
+    padding: 5px 0;
+    outline: none;
+    border: none;
+}
+
+.membership{
+    background: black;
+     color: white;
+}
+
+.membership .col-5{
+    background-color: rgb(4, 4, 23);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.div-col{
+    justify-content:space-evenly
+     ;
+}
+
+.top-ind{
+    background-color: black;
+    padding-bottom: 40px;
+
+}
+
+.btn-top{
+    position: relative;
+    left: 95%;
+    border-radius: 50%;
+}
+.btn-top:hover{
+    background-color: rgb(200, 255, 0);
+}
+
